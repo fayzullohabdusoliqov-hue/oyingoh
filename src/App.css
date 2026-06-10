@@ -1,16 +1,21 @@
-:root{
-  --background:black;
-  --color: white;
-  --border: rgba(156, 67, 240, 0.806);
-  --box-shadow: rgba(137, 43, 226, 0.86);
-  --card-background:rgba(66, 1, 127, 0.457);
+:root {
+  --background: #14052d;
+  --card-background: #1e0a3d;
+  --color: #ffffff;
+  --border: #6c2bd9;
+  --box-shadow: rgba(108, 43, 217, 0.3);
+  --button-bg: #6c2bd9;
+  --input-bg: #1e0a3d;
 }
-.light{
-  --background:white;
-  --color: black;
-  --border: blueviolet;
-  --box-shadow: rgba(137, 43, 226, 0.241);
-  --card-background:rgba(137, 43, 226, 0.514);
+
+.light {
+  --background: #ffffff;
+  --card-background: #f5f5f5;
+  --color: #111111;
+  --border: #6c2bd9;
+  --box-shadow: rgba(108, 43, 217, 0.15);
+  --button-bg: #6c2bd9;
+  --input-bg: #ffffff;
 }
 
 .body{
