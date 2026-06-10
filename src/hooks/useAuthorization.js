@@ -1,10 +1,12 @@
 import axios from "axios"
+const LOGIN = "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key"
+const APIKEY = "AIzaSyAyce3GK3jaz9Xf37jH2txlfYOxhDAloTQ"
 
 export async function useAuthorization(email, password, setLoading, setLogin){
   try{
     setLoading(true)
 
-    const res = await axios.post("https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyAyce3GK3jaz9Xf37jH2txlfYOxhDAloTQ",{
+    const res = await axios.post(`${LOGIN}=${APIKEY}`,{
         email: email,
         password: password,
         returnSecureToken: true
