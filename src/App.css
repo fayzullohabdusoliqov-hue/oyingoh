@@ -1,66 +1,24 @@
-:root {
-  --background: #ffffff;
-  --card-background: #ffffff;
-  --card-shadow: oklch(0.145 0 0);
-  --popover-background: oklch(1 0 0);
-  --popover-shadow: oklch(0.145 0 0);
-  --primary-background: #030213;
-  --primary-shadow: oklch(1 0 0);
-  --secondary-background: oklch(0.95 0.0058 264.53);
-  --secondary-shadow: #030213;
-  --muted-background: #ececf0;
-  --muted-shadow: #717182;
-  --accent-background: #e9ebef;
-  --accent-shadow: #030213;
-  --destructive-background: #d4183d;
-  --destructive-shadow: #ffffff;
-  --input-background: #f3f3f5;
-  --switch-background: #cbced4;
-  --radius: 0.625rem;
-  --sidebar-background: oklch(0.985 0 0);
-  --sidebar-shadow: oklch(0.145 0 0);
-  --sidebar-primary-background: #030213;
-  --sidebar-primary-shadow: oklch(0.985 0 0);
-  --sidebar-accent-background: oklch(0.97 0 0);
-  --sidebar-accent-shadow: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
+:root{
+  --background:black;
+  --color: white;
+  --border: rgba(156, 67, 240, 0.806);
+  --box-shadow: rgba(137, 43, 226, 0.86);
+  --card-background:rgba(66, 1, 127, 0.457);
 }
-
-.dark {
-  --background: oklch(0.145 0 0);
-  --card-background: oklch(0.145 0 0);
-  --card-shadow: oklch(0.985 0 0);
-  --popover-background: oklch(0.145 0 0);
-  --popover-shadow: oklch(0.985 0 0);
-  --primary-background: oklch(0.985 0 0);
-  --primary-shadow: oklch(0.205 0 0);
-  --secondary-background: oklch(0.269 0 0);
-  --secondary-shadow: oklch(0.985 0 0);
-  --muted-background: oklch(0.269 0 0);
-  --muted-shadow: oklch(0.708 0 0);
-  --accent-background: oklch(0.269 0 0);
-  --accent-shadow: oklch(0.985 0 0);
-  --destructive-background: oklch(0.396 0.141 25.723);
-  --destructive-shadow: oklch(0.637 0.237 25.331);
-  --input-background: oklch(0.269 0 0);
-  --switch-background: oklch(0.269 0 0);
-  --radius: 0.625rem;
-  --sidebar-background: oklch(0.205 0 0);
-  --sidebar-shadow: oklch(0.985 0 0);
-  --sidebar-primary-background: oklch(0.488 0.243 264.376);
-  --sidebar-primary-shadow: oklch(0.985 0 0);
-  --sidebar-accent-background: oklch(0.269 0 0);
-  --sidebar-accent-shadow: oklch(0.985 0 0);
-  --sidebar-border: oklch(0.269 0 0);
-}
-
 .light{
-    background: var(--background);
-    font-family:"Pliant" ;
+  --background:white;
+  --color: black;
+  --border: blueviolet;
+  --box-shadow: rgba(137, 43, 226, 0.241);
+  --card-background:rgba(137, 43, 226, 0.514);
 }
-.dark{
+
+.body{
     background: var(--background);
+    width: 100%;
+    height: 100vh;
     font-family:"Pliant" ;
+    color: var(--color);
 }
 
 *{

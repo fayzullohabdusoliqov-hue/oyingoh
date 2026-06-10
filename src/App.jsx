@@ -60,9 +60,9 @@ function App() {
       ]
     }
   ])
-  return (<div className='light'>
+  return (
     <RouterProvider router={router}/>
-  </div>)
+  )
 }
 
 export default App
