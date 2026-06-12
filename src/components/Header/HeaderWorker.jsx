@@ -24,7 +24,7 @@ function HeaderWorker({setOpenSidebar}) {
             <option value={""}>Pul summasi</option>
           </select>
           <input type="text" className="header_input-form" placeholder='Mijoz ismi va familiyasi'/>
-          <button className="header_btn-form">+ Qo'shish</button>
+          <button className="header_btn-form">Qo'shish</button>
         </form>
         <div className="header__btn">
           <button className="header_btn">filiallar</button>
